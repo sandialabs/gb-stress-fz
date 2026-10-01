@@ -1,6 +1,12 @@
 # Grain boundary-stress fundamental zones
 Computational tools to make use of grain boundary-stress orientation fundamental zones of cubic metals with Oh point group symmetry, for axisymmetric and triaxial stresses. The functions in this toolbox allow for the development of quasi-equidistant grids in disorientation, boundary plane and stress fundamental zones, to map arbitrary configurations into their symmetrically equivalent ones within the fundamental zone, and to snap configurations into their closest condition within a predefined grid. This also includes an implementation of an elastic bicrystal incompatibility stress model and calculation of damage metrics.
 
+The derivation and further details of this work have been published in: [F.D. León-Cázares, C. Alleman, A. Polonsky (2026) Acta Materialia 321, 122766](https://www.sciencedirect.com/science/article/pii/S1359645426008657). Please cite this publication if you benefit from this repository.
+
+
+<img src="./Images/graphical_abstract.jpg" height="400">
+
+
 ## Requirements
 Coded in Matlab R2022a. 
 Note: Function conflicts may occur if the MTEX toolbox is initialized.
